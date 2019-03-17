@@ -1,0 +1,177 @@
+body{
+	background-color: #E4E7F1
+}
+
+.lftara{
+	background-color: white;
+	padding: 10px;
+	position: fixed;
+	width: 18%;
+	box-shadow: 2px 2px 30px 5px white;
+
+}
+
+.src{
+	padding: 10px;
+	height: 40px;
+	border-radius: 10px;
+	width: 100%;
+}
+.src:focus{
+	border: none;
+	background-color: #FFFFF0
+}
+
+.srcbtn{
+	display: none;
+}
+
+.uld{
+
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+#bb{
+    padding: 7px;
+    background: #E4E7F1; 
+    border: 0.8px solid black;
+    border-radius: 20px;
+    color: #000000;
+     }
+
+#fls{
+    display: none;
+}
+
+.pstmsg{
+	width: 50%;
+	border: none;
+	border-radius: 10px;
+	padding: 7px;
+
+}
+.sb{
+	padding: 7px;
+	background-color: #E4E7F1;
+	width: 10%;
+}
+.lnk{
+	text-decoration: none;
+}
+.msgfld{
+	background-color: white;
+	padding: 3px;
+}
+
+#pst{
+	width: 100%;
+	margin-left: 0px;
+}
+
+.rghtara{
+	margin-left: 0px;
+}
+
+.clmthree{
+	position: fixed;
+	box-shadow: 2px 2px 30px 5px #4267B2;
+	background-color: white;
+	width: 17%;
+
+}
+.chat_ttl{
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 30%;
+}
+
+.lstcht{
+	margin-bottom: 7px; 
+	text-transform: capitalize;
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.msg_cht_img{
+	border-radius: 50%;
+	margin-right: 5px;
+}
+.btn{
+	float: right;
+	margin-right: 5px;
+	margin-bottom: 0px;
+}
+.msg_box{
+	width: 100%;
+}
+.nm_snd_rcv{
+
+	background-color: #4267B2;
+	padding: 10px;
+}
+
+.sho_msg{
+	background-color: #DDEEEE;
+			border: 1px solid black;
+			height: 450px;
+			overflow-y: scroll;
+}
+.msg_top{
+	border: 1px solid black;
+	box-shadow: 1px 2px 1px 2px;
+}
+
+.srcfnd{
+
+	margin-top: 10px;
+	background-color: white;
+	padding: 12px;
+}
+.pplpst{
+	background-color: #4267B2;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	margin-bottom: 5px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+
+
+@media(min-width: 280px) and (max-width: 520px){
+
+.lftara{
+	display: none;
+}
+.uld{
+	background-color: white;
+	
+	margin-left: 0%;
+	margin-right: 0%;
+	
+}
+
+#bb{
+    width: 80%;
+     }
+
+ .pstmsg{
+	width: 90%;
+	
+
+}
+.sb{
+	
+	width: 50%;
+	margin-right: 25%;
+}
+.clmthree{
+	display: none;
+}
+
+
+}

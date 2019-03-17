@@ -1,0 +1,172 @@
+
+		.uld{
+			margin-top: 20px;
+			margin-left: 10px;
+		}
+		.fls{
+			margin-bottom: 5px;
+		}
+
+		.srch{
+			margin-top: 10px;
+			margin-left: 10px;
+		}
+
+		.src{
+			height: 50px;
+			width: 80%;
+			padding: 10px;
+		}
+		.srcbtn{
+			background-image: url(img/magnifier.png);
+			background-repeat: no-repeat;
+			background-position: center;
+			width: 15%;
+			height: 50px;
+		}
+
+	
+
+
+
+		#pst{
+			background-color: white;
+			border: 1px solid black;
+			
+			overflow: auto;
+
+		}
+		.upimg{
+			border-radius: 50%;
+		}
+		.uin{
+			margin-top: 5px;
+			color: blue;
+			margin-left: 15px;
+		}
+		.uttl{
+			margin-top: 5px;
+			color: black;
+			text-align: justify;
+			margin-left: 15px;
+			margin-right: 10px;
+		}
+		.cimg{
+			height: 350px;
+			width: 100%;
+		}
+
+		.cmtbtn{
+			margin-left: 20%;
+			background-color: #FFFFFF;
+			border: none;
+			color: black;
+			padding: 7px 20%;
+		}
+		.uin a{
+			text-decoration: none;
+		}
+
+		.usrinfo{margin-top: 15px;
+			margin-left: 0px;
+			border:1px solid black;
+			margin-right: 0px;
+			padding: 20px 20px;
+		}
+		.usrinfo a{
+
+			text-decoration: none;
+			color: #002D2D;
+		}
+
+		h1.cap{
+			text-transform: capitalize;
+			margin-left: 9%;
+		}
+		.usrinfo a:hover{
+			color: #007575;
+		}
+		.usrimgs{
+			margin-left: 16%;
+			border-radius: 8px 8px 8px 8px;
+		}
+		.ulst{
+			margin-left: 9%;
+		}
+
+		/*
+		.cmtd{
+			display: none;
+		}
+		.cmtd{
+			margin: 10px 20px 10px;
+		}
+
+		.cmtarea{
+			height: 30px;
+  			width: 75%;
+ 			 padding: 5px 10px;
+			  font-size: 16px;
+ 			 border-radius: 10px;
+			  border: 1px solid gray;
+		}
+
+		.cmtsbt{
+			height: 30px;
+			width: 16%;
+			border-radius: 10px;
+			border: none; margin-left: 10px;
+		}
+		*/
+
+		@media(min-width: 280px) and (max-width: 520px){
+
+			.uld{
+				margin-left: 10px !important;
+			}
+			textarea{
+				float: left;
+			resize: none;
+			width: 98%;
+			height: 70px;
+			border-radius: 5px;
+			border: 1px solid gray; 
+			padding: 10px 10px;
+			margin-bottom: 5px;
+		}
+		.fls{
+			margin-left: 20%;
+			margin-bottom: 5px;
+		}
+		.sb{
+			margin-left: 40%;
+		}
+		.src{
+			width: 82%;
+		}
+		.rightarea{
+			margin-left: 0px;
+		}
+		.leftarea{
+			position: static;
+		}
+
+		#pst{
+			marker-start: 100px;
+			margin-left: 0px;
+			margin-right: 0px;
+		}
+
+		.cimg{
+			height: 300px;
+			width: 100%;
+		}
+
+		.cmtbtn{margin-left: 10%;
+			
+		}
+		.usrinfo{
+			display: none;
+		}
+
+		}

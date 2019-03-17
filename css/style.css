@@ -1,0 +1,177 @@
+.top_br{background:#283e4a;} .top_br{padding: 0px;} body{ background-image: no-repeat center fixed; background-size: cover; }
+.lsm a{text-decoration: none; font-size: 30px; font-family: bold; color: white; } /*media query start max 480 */
+
+@media(min-width: 280px) and (max-width: 520px){
+	body{
+		background-image: none !important;
+		background-color: #e4e7f1 !important; 
+	}
+
+  /*
+	.header {
+  width: 96% !important;
+  margin: 30px auto 0px !important;
+
+ 
+}
+
+*/
+
+.frm, .content {
+  width: 96% !important;
+}
+.frmarea {
+  width: 96% !important;
+}
+.btn{
+	text-align: center !important;
+  width: 60% !important;
+  margin-left: 20% !important;
+}
+
+	.lh{
+	
+	font-size: 15px !important;
+	font-family: bold;
+	text-align: center !important;
+}
+
+
+.input-lgn {
+  
+  width: 90% !important;
+    margin: 5px;
+
+}
+
+.lon_btn{
+  width: 40% !important;
+  margin-left: 5% !important;
+
+}
+
+ select
+		   {
+		   	width: 31.5% !important;
+
+		   }
+     
+		   .gdr{
+		   	margin-right: 10% !important;
+		   }
+
+
+}
+/*media query End max 480*/
+
+
+/* media query start for 481 to 1024 */
+
+
+
+/* media query end */
+
+.tsn{
+	
+	font-size: 30px;
+	font-family: bold;
+	text-align: center;
+	color: #00b3b3;
+}
+
+.lh a{
+
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+/* ---------------------------------------------------------------------------------------------------------*/
+body{
+  background-color: #e4e7f1;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+
+.header {
+  width: 30%;
+  margin: 30px auto 0px;
+  color: white;
+  background: #0000ff;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 10px;
+}
+.frm, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.frmarea{
+  height: 40px;
+  width: 96%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray; margin-bottom: 2px;
+}
+.btn1{
+  width: 20%;
+}
+.btn2{
+  width: 40%;
+}
+
+.input-lgn {
+  height: 30px;
+  width: 30%;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+
+
+   select
+		   {
+		   	width: 31.5%;
+		   	padding: 8px 12px;
+		   	
+		   	margin-bottom: 5px;
+		   	display: inline-block;
+		   	border: 1px solid black;
+		   	border-radius: 5px;
+		   	background-color: ;
+
+		   }
+
+		   .gdr{
+		   	margin-left: 25%;
+      
+		   }
+
+       .footer{
+        background: #333333;
+        padding: 18px 0;
+        
+       }
+
+       .footer a, p{
+        text-decoration: none;
+        color: white;
+       }
+      .err{
+        text-align: center;
+      }
